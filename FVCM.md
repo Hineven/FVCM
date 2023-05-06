@@ -17,11 +17,10 @@ We also evaluate the asymptotic performance of our approach and observe an overa
 ## Video
 
 <section>
-  <button class="btn"  onclick="loadiframe('https://www.youtube.com/embed/1iamshDsQOE')">Youtube</button>
-  <button class="btn"  onclick="loadiframe('//player.bilibili.com/player.html?aid=584378199&bvid=BV1tz4y1f7u5&cid=231457632&page=1')">Bilibili</button>
+  <button class="btn"  onclick="loadiframe('https://www.youtube.com/embed/sKAel0Sr77k')">Youtube</button>
+  <button class="btn"  onclick="loadiframe('//player.bilibili.com/player.html?aid=400780401&bvid=BV1Ho4y1A7dQ&cid=1120081893&page=1')">Bilibili</button>
 </section>
-
-<iframe id="videoiframe" width="100%" onload="resizeIframe(this)" src="https://www.youtube.com/embed/1iamshDsQOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="videoiframe" width="100%" onload="resizeIframe(this)" src="https://www.youtube.com/embed/sKAel0Sr77k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <script>
   function resizeIframe(obj) {
