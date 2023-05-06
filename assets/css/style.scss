@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h1 {
+  margin: 0 0 0 0;
+}
+
+// overwrite strange insertion
+header h1:before {
+  content: "";
+  font-size: 24px;
+}
+
+.btn-pdf .icon {
+  opacity: 0.6;
+  background: url("../images/pdf-logo.png") 0 0 no-repeat;
+  background-size: cover;
+}
